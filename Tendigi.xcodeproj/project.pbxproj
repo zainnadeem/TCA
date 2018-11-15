@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFF59371219DBBBC00064D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF59370219DBBBC00064D09 /* AppDelegate.swift */; };
+		BFF59373219DBBBC00064D09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF59372219DBBBC00064D09 /* ViewController.swift */; };
+		BFF59376219DBBBC00064D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF59374219DBBBC00064D09 /* Main.storyboard */; };
+		BFF59378219DBBBD00064D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF59377219DBBBD00064D09 /* Assets.xcassets */; };
+		BFF5937B219DBBBD00064D09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF59379219DBBBD00064D09 /* LaunchScreen.storyboard */; };
+		BFF59388219DBBF700064D09 /* MainScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF59382219DBBF700064D09 /* MainScreenPresenter.swift */; };
+		BFF59389219DBBF700064D09 /* MainScreenWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF59383219DBBF700064D09 /* MainScreenWorker.swift */; };
+		BFF5938A219DBBF700064D09 /* MainScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF59384219DBBF700064D09 /* MainScreenRouter.swift */; };
+		BFF5938B219DBBF700064D09 /* MainScreenModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF59385219DBBF700064D09 /* MainScreenModels.swift */; };
+		BFF5938C219DBBF700064D09 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF59386219DBBF700064D09 /* MainScreenViewController.swift */; };
+		BFF5938D219DBBF700064D09 /* MainScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF59387219DBBF700064D09 /* MainScreenInteractor.swift */; };
+		CEB88011016C35DC427EBE11 /* Pods_Tendigi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43974C7FBD10EEC6AB38D01E /* Pods_Tendigi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		233AFC0F93F88C3D2A7F153C /* Pods-Tendigi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tendigi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tendigi/Pods-Tendigi.debug.xcconfig"; sourceTree = "<group>"; };
+		43974C7FBD10EEC6AB38D01E /* Pods_Tendigi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tendigi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E6FE6BD03F6E0621867192 /* Pods-Tendigi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tendigi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tendigi/Pods-Tendigi.release.xcconfig"; sourceTree = "<group>"; };
+		BFF5936D219DBBBC00064D09 /* Tendigi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tendigi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF59370219DBBBC00064D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFF59372219DBBBC00064D09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFF59375219DBBBC00064D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFF59377219DBBBD00064D09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFF5937A219DBBBD00064D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFF5937C219DBBBD00064D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF59382219DBBF700064D09 /* MainScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenPresenter.swift; sourceTree = "<group>"; };
+		BFF59383219DBBF700064D09 /* MainScreenWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenWorker.swift; sourceTree = "<group>"; };
+		BFF59384219DBBF700064D09 /* MainScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenRouter.swift; sourceTree = "<group>"; };
+		BFF59385219DBBF700064D09 /* MainScreenModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenModels.swift; sourceTree = "<group>"; };
+		BFF59386219DBBF700064D09 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		BFF59387219DBBF700064D09 /* MainScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenInteractor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFF5936A219DBBBC00064D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB88011016C35DC427EBE11 /* Pods_Tendigi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DE550F03DB77345CC3B2EEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43974C7FBD10EEC6AB38D01E /* Pods_Tendigi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D7CB23CABD83C7C445E56A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				233AFC0F93F88C3D2A7F153C /* Pods-Tendigi.debug.xcconfig */,
+				59E6FE6BD03F6E0621867192 /* Pods-Tendigi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BFF59364219DBBBC00064D09 = {
+			isa = PBXGroup;
+			children = (
+				BFF5936F219DBBBC00064D09 /* Tendigi */,
+				BFF5936E219DBBBC00064D09 /* Products */,
+				6D7CB23CABD83C7C445E56A7 /* Pods */,
+				0DE550F03DB77345CC3B2EEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BFF5936E219DBBBC00064D09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF5936D219DBBBC00064D09 /* Tendigi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFF5936F219DBBBC00064D09 /* Tendigi */ = {
+			isa = PBXGroup;
+			children = (
+				BFF59370219DBBBC00064D09 /* AppDelegate.swift */,
+				BFF59372219DBBBC00064D09 /* ViewController.swift */,
+				BFF59382219DBBF700064D09 /* MainScreenPresenter.swift */,
+				BFF59383219DBBF700064D09 /* MainScreenWorker.swift */,
+				BFF59384219DBBF700064D09 /* MainScreenRouter.swift */,
+				BFF59385219DBBF700064D09 /* MainScreenModels.swift */,
+				BFF59386219DBBF700064D09 /* MainScreenViewController.swift */,
+				BFF59387219DBBF700064D09 /* MainScreenInteractor.swift */,
+				BFF59374219DBBBC00064D09 /* Main.storyboard */,
+				BFF59377219DBBBD00064D09 /* Assets.xcassets */,
+				BFF59379219DBBBD00064D09 /* LaunchScreen.storyboard */,
+				BFF5937C219DBBBD00064D09 /* Info.plist */,
+			);
+			path = Tendigi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFF5936C219DBBBC00064D09 /* Tendigi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF5937F219DBBBD00064D09 /* Build configuration list for PBXNativeTarget "Tendigi" */;
+			buildPhases = (
+				9BE79935392083558B43B92D /* [CP] Check Pods Manifest.lock */,
+				BFF59369219DBBBC00064D09 /* Sources */,
+				BFF5936A219DBBBC00064D09 /* Frameworks */,
+				BFF5936B219DBBBC00064D09 /* Resources */,
+				37AA44F4D408804C2933AD95 /* [CP] Embed Pods Frameworks */,
+				854B22858E02C2DD32D8CDDC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tendigi;
+			productName = Tendigi;
+			productReference = BFF5936D219DBBBC00064D09 /* Tendigi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFF59365219DBBBC00064D09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Mapfit;
+				TargetAttributes = {
+					BFF5936C219DBBBC00064D09 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = BFF59368219DBBBC00064D09 /* Build configuration list for PBXProject "Tendigi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFF59364219DBBBC00064D09;
+			productRefGroup = BFF5936E219DBBBC00064D09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFF5936C219DBBBC00064D09 /* Tendigi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFF5936B219DBBBC00064D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF5937B219DBBBD00064D09 /* LaunchScreen.storyboard in Resources */,
+				BFF59378219DBBBD00064D09 /* Assets.xcassets in Resources */,
+				BFF59376219DBBBC00064D09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37AA44F4D408804C2933AD95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tendigi/Pods-Tendigi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tendigi/Pods-Tendigi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		854B22858E02C2DD32D8CDDC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tendigi/Pods-Tendigi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BE79935392083558B43B92D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tendigi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFF59369219DBBBC00064D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF59389219DBBF700064D09 /* MainScreenWorker.swift in Sources */,
+				BFF59373219DBBBC00064D09 /* ViewController.swift in Sources */,
+				BFF5938C219DBBF700064D09 /* MainScreenViewController.swift in Sources */,
+				BFF59371219DBBBC00064D09 /* AppDelegate.swift in Sources */,
+				BFF5938A219DBBF700064D09 /* MainScreenRouter.swift in Sources */,
+				BFF5938D219DBBF700064D09 /* MainScreenInteractor.swift in Sources */,
+				BFF5938B219DBBF700064D09 /* MainScreenModels.swift in Sources */,
+				BFF59388219DBBF700064D09 /* MainScreenPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFF59374219DBBBC00064D09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF59375219DBBBC00064D09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFF59379219DBBBD00064D09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF5937A219DBBBD00064D09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFF5937D219DBBBD00064D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFF5937E219DBBBD00064D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFF59380219DBBBD00064D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 233AFC0F93F88C3D2A7F153C /* Pods-Tendigi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G73R47QN9;
+				INFOPLIST_FILE = Tendigi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mapfit.Tendigi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFF59381219DBBBD00064D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E6FE6BD03F6E0621867192 /* Pods-Tendigi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G73R47QN9;
+				INFOPLIST_FILE = Tendigi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mapfit.Tendigi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFF59368219DBBBC00064D09 /* Build configuration list for PBXProject "Tendigi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF5937D219DBBBD00064D09 /* Debug */,
+				BFF5937E219DBBBD00064D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF5937F219DBBBD00064D09 /* Build configuration list for PBXNativeTarget "Tendigi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF59380219DBBBD00064D09 /* Debug */,
+				BFF59381219DBBBD00064D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFF59365219DBBBC00064D09 /* Project object */;
+}
